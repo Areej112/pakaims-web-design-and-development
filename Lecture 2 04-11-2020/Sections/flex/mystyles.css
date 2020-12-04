@@ -1,0 +1,26 @@
+.all-products {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.all-products > .product {
+  padding: 20px;
+  border: 1px solid red;
+  margin: 2px;
+}
+
+.pcenter {
+  background-color: orange;
+  height: 400px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}

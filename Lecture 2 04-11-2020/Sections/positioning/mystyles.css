@@ -1,0 +1,33 @@
+.product {
+  border: 1px solid blue;
+  margin: 5px;
+}
+
+#second {
+  /* background-color: orange; */
+  /* position: fixed; */
+  /* left: 50px; */
+  /* top: 0px; */
+  /* width: 300px; */
+}
+#second {
+  z-index: 4;
+}
+.shout {
+  background-color: yellow;
+  color: red;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#fourth {
+  position: relative;
+}
+
+#first {
+  position: sticky;
+  top: 0px;
+  background-color: red;
+  z-index: 0;
+}
