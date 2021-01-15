@@ -13,6 +13,9 @@ app.get("/contactus", (req, res) => {
 app.get("/", (req, res) => {
   res.render("homepage");
 });
+app.get("/api/products", (req, res) => {
+  res.send(["Car", "Box"]);
+});
 
 const port = 4000;
 app.listen(port, function () {
